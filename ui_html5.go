@@ -29,6 +29,7 @@ var AdditionalChromiumArgs = []string{
 	"--safebrowsing-disable-auto-update",
 	"--password-store=basic",
 	"--use-mock-keychain",
+	"--remote-allow-origins=*",
 }
 
 // NewHtml5 returns a new HTML5 UI for the given executable URL, user profile
